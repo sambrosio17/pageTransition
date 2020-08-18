@@ -9,3 +9,7 @@ For this project i used:
 - HTML 5
 - SASS
 - JQuery / Javascript
+
+## LIVE DEMO
+
+Check out the live demo here: https://sambrosio17.github.io/pageTransition/
