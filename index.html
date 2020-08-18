@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page-Transition</title>
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+  <nav class="nav">
+    <ul>
+      <li id="home"><a href="#home" class="nav__links">Home</a></li>
+      <li id="about"><a href="#about" class="nav__links">About</a></li>
+      <li id="contact"><a href="#Contact" class="nav__links">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="page__home">
+      <div class="home__content">
+        <div class="home__content__info">
+          <h1 class="title">Awesome page built for every porpouse</h1>
+          <p class="description">
+            Don't miss the opportunity to have a unique web page
+          </p>
+        </div>
+        <img src="" />
+      </div>
+    </section>
+    <section class="page__about hidden">
+      <div class="about__content">about</div>
+    </section>
+    <section class="page__contact hidden">
+      <div class="contact__content">contact</div>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="./script/app.js"></script>
+</body>
+
+</html>
